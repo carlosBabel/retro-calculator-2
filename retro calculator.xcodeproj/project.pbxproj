@@ -14,6 +14,9 @@
 		07502D991E2E9A95007E03F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07502D971E2E9A95007E03F1 /* LaunchScreen.storyboard */; };
 		07502DA41E2E9A96007E03F1 /* retro_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07502DA31E2E9A96007E03F1 /* retro_calculatorTests.swift */; };
 		07502DAF1E2E9A96007E03F1 /* retro_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07502DAE1E2E9A96007E03F1 /* retro_calculatorUITests.swift */; };
+		07502DBD1E2E9C27007E03F1 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = 07502DBC1E2E9C27007E03F1 /* btn.wav */; };
+		07502DBF1E2EA91A007E03F1 /* retro_party.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 07502DBE1E2EA91A007E03F1 /* retro_party.ttf */; };
+		07502DC11E2EA99D007E03F1 /* loginvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07502DC01E2EA99D007E03F1 /* loginvc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		07502DAA1E2E9A96007E03F1 /* retro calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "retro calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		07502DAE1E2E9A96007E03F1 /* retro_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = retro_calculatorUITests.swift; sourceTree = "<group>"; };
 		07502DB01E2E9A96007E03F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07502DBC1E2E9C27007E03F1 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
+		07502DBE1E2EA91A007E03F1 /* retro_party.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = retro_party.ttf; sourceTree = "<group>"; };
+		07502DC01E2EA99D007E03F1 /* loginvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loginvc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		07502D8D1E2E9A95007E03F1 /* retro calculator */ = {
 			isa = PBXGroup;
 			children = (
+				07502DBC1E2E9C27007E03F1 /* btn.wav */,
+				07502DBE1E2EA91A007E03F1 /* retro_party.ttf */,
 				07502D8E1E2E9A95007E03F1 /* AppDelegate.swift */,
 				07502D901E2E9A95007E03F1 /* ViewController.swift */,
 				07502D921E2E9A95007E03F1 /* Main.storyboard */,
 				07502D951E2E9A95007E03F1 /* Assets.xcassets */,
 				07502D971E2E9A95007E03F1 /* LaunchScreen.storyboard */,
 				07502D9A1E2E9A95007E03F1 /* Info.plist */,
+				07502DC01E2EA99D007E03F1 /* loginvc.swift */,
 			);
 			path = "retro calculator";
 			sourceTree = "<group>";
@@ -234,7 +243,9 @@
 			files = (
 				07502D991E2E9A95007E03F1 /* LaunchScreen.storyboard in Resources */,
 				07502D961E2E9A95007E03F1 /* Assets.xcassets in Resources */,
+				07502DBF1E2EA91A007E03F1 /* retro_party.ttf in Resources */,
 				07502D941E2E9A95007E03F1 /* Main.storyboard in Resources */,
+				07502DBD1E2E9C27007E03F1 /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +272,7 @@
 			files = (
 				07502D911E2E9A95007E03F1 /* ViewController.swift in Sources */,
 				07502D8F1E2E9A95007E03F1 /* AppDelegate.swift in Sources */,
+				07502DC11E2EA99D007E03F1 /* loginvc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
